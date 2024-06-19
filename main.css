@@ -1,0 +1,78 @@
+<style type="text/css">
+body{
+    font-size: 19px;
+    font-family: Verdana;
+    }
+
+body{background-color: skyblue;
+    text-align: center;
+    padding: 15px;
+}
+
+header{
+    padding: 15px;
+}
+
+ul a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 15px;
+    color: black;
+    background-color: orange;
+    }
+    li:hover{
+    background-color: skyblue;
+    border-style: none;
+    }
+    h1{
+    color: black;
+    }
+#alinea{
+    color: black;
+    margin-left: 300px;
+    margin-right: 300px;
+    }
+footer{
+    text-align:center;
+    font-size: 12px;
+    padding: 15px;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto;
+    }
+    td, th{
+    padding: 10px 5px;
+    }
+form{
+    text-align: center;
+    padding: 15px;
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+        display: block;
+        margin: 0px auto;
+        width: 400px;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 10px;
+}
+
+        
+        textarea{
+            height: 100px;
+            padding: 5px 4px;
+        }
+            button:active{
+                background-color: darkgreen;
+                color: white;
+                border-radius: 4px;
+        }
+</style>
